@@ -1,1 +1,1 @@
-some SwiftUI Demos to learn SwiftUI
+Some SwiftUI Demos to learn SwiftUI
