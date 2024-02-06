@@ -186,23 +186,6 @@ struct ProfileView: View {
                     .padding(.trailing,20)
             }
             
-            Button {
-                self.toastStr = "点击转发"
-                self.showToast = true
-            } label: {
-                HStack {
-                    Image("profile_share")
-                    Text("转发")
-                }.frame(minWidth: 0,maxWidth: .infinity)
-                    .frame(height: 50)
-                    .font(.system(size: 14))
-                    .fontWeight(.medium)
-                    .foregroundColor(.black)
-                    .background(.white)
-                    .cornerRadius(13)
-                    .padding(.trailing,20)
-            }
-            
 
         }
     }
